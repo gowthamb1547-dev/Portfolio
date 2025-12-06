@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my projects, skills, and experience. Built with **React**, **Tailwind CSS**, and modern web development practices.
 
 ## 🌐 Live Demo
-[View Live Website](https://your-vercel-url.vercel.app/)
+[View Live Website](https://portfolio-rosy-eta-9d3bwi4tmr.vercel.app/)
 
 ## 💻 Features
 - Responsive design for desktop and mobile
