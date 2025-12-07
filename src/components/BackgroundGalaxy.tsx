@@ -89,21 +89,7 @@ export default function BackgroundGalaxy({ starDensity = 1, particleDensity = 0.
       ctx.fillStyle = grad;
       ctx.fillRect(0, 0, width, height);
 
-      // Subtle nebulas using radial gradients lighter blend
-      const nebula = (cx: number, cy: number, r: number, color: string) => {
-        const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
-        g.addColorStop(0, color);
-        g.addColorStop(1, "rgba(0,0,0,0)");
-        ctx.fillStyle = g;
-        ctx.globalCompositeOperation = "lighter";
-        ctx.beginPath();
-        ctx.arc(cx, cy, r, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.globalCompositeOperation = "source-over";
-      };
-
-      nebula(width * 0.3, height * 0.35, Math.min(width, height) * 0.45, "rgba(76,110,245,0.06)");
-      nebula(width * 0.7, height * 0.6, Math.min(width, height) * 0.55, "rgba(167,139,250,0.05)");
+      // Nebula effect removed as requested
     };
 
     const draw = (ts?: number) => {

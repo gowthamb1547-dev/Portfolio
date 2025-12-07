@@ -1,4 +1,4 @@
-import { GraduationCap, BadgeCheck } from "lucide-react";
+import { GraduationCap, BadgeCheck, Briefcase } from "lucide-react";
 
 const EducationSection = () => {
   return (
@@ -41,7 +41,9 @@ const EducationSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="glass-card bg-black/40 border border-white/10 rounded-xl p-6 transition duration-500 hover:shadow-[0_0_22px_rgba(59,130,246,0.25)] hover:border-blue-400/40">
               <div className="flex items-start gap-4">
-                <div className="h-12 w-12 rounded-lg bg-white/10 ring-1 ring-white/20" />
+                <div className="h-12 w-12 rounded-lg bg-white/10 ring-1 ring-white/20 flex items-center justify-center">
+                  <Briefcase className="w-5 h-5 text-blue-400" />
+                </div>
                 <div>
                 <h4 className="text-white">FRONT END DEVELOPER • Rats Technologies</h4>
                   <p className="text-xs text-white/60">3 Jan 2025 – 7 Feb 2025</p>
